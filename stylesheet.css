@@ -1,0 +1,43 @@
+:root {
+    --clr-blue:hsl(234, 85%, 45%);
+    --clr-teal:hsl(166, 100%, 37%);
+    --clr-orange:hsl(39, 100%, 56%);
+    --clr-red: hsl(0, 100%, 67%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-lightblue:hsl(221, 100%, 96%);
+    --clr-lavendar:hsl(241, 100%, 89%);
+    --clr-background1: hsl(252, 100%, 67%);
+    --clr-background2:hsl(241, 81%, 54%);
+}
+
+*{
+    font-family: hanken grotesk;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
+    background-color:var(--clr-background2);
+    padding:15%;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
+    padding:5%;
+
+}

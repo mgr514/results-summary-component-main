@@ -27,6 +27,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 500px;
     color: var(--clr-lavendar);
     background-image: linear-gradient(
         to bottom,
@@ -79,11 +80,20 @@ body{
     text-align:center;
     margin: 50px;
 }
+.summary h2{
+    text-align: left;
+}
 
 .summary p{
     margin: 5px 20px;
-    padding: 10px;
-    border-radius:10px;
+    padding: 10px 20px;
+    border-radius:20px;
+}
+
+.compartment{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .reaction p{
@@ -104,7 +114,7 @@ body{
 .visual p{
     color: var(--clr-blue);
     background-color: hsla(234, 85%, 45%, 0.1);
-    margin-bottom: 30px;
+    
 }
 .continue{
     color: var(--clr-white);

@@ -11,7 +11,7 @@
 }
 
 *{
-    font-family: hanken grotesk;
+    font-family: Hanken Grotesk;
     box-sizing: border-box;
 }
 
@@ -27,9 +27,27 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 720px;
     background-color:var(--clr-background2);
-    padding:15%;
+    color: var(--clr-white);
+}
+
+.result-grade{
+    border: 1px solid black;
+    padding: 7%;
+    border-radius: 50%;
+}
+
+.result-grade h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.result-grade p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: var(--clr-lavendar);
+}
+.result-prompt p{
+    color: var(--clr-lavendar);
 }
 
 .summary{
@@ -37,7 +55,4 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 720px;
-    padding:5%;
-
 }

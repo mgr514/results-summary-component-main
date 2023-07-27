@@ -120,3 +120,5 @@ body{
     color: var(--clr-white);
     background-color:  hsl(224, 30%, 27%);
 }
+
+/* things I would like to improve: sizing (compared to original design), media queries, how to use a json file*/

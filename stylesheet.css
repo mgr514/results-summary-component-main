@@ -17,8 +17,12 @@
 
 body{
     display: flex;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
 
@@ -27,7 +31,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 350px;
+    padding: 12px;
+    border-radius: 30px;
     color: var(--clr-lavendar);
     background-image: linear-gradient(
         to bottom,
@@ -70,8 +76,7 @@ body{
 
 .result-prompt p{
     color: var(--clr-lavendar);
-    text-align:center;
-    margin: 0 100px;
+    padding: 0px 20px;
 }
 
 .summary{
